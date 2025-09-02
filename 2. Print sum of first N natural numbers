@@ -5,7 +5,7 @@ int sum(int n){
     x += i;
   }
   return x;
-};
+}
 int main(){
   int n = 10;
 
