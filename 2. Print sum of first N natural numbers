@@ -9,6 +9,6 @@ int sum(int n){
 int main(){
   int n = 10;
 
-  printf("sum of %d Natural number = %d ",n,sum(10));
+  printf("sum of %d Natural number = %d ",n,sum(n));
   return 0;
 }
