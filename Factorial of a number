@@ -1,14 +1,18 @@
-//Factorial of a number
 #include <stdio.h>
 
 int fact(int n) {
-    if (n == 0) //base condition
+  
+    // BASE CONDITION
+    if (n == 0)
         return 1;
   
     return n * fact(n - 1);
 }
 
 int main() {
-    printf("Factorial of 5 : %d\n", fact(5));
+  int n;
+  printf("Enter your Factorial number: ");
+  scanf("%d",&n);
+    printf("Factorial of %d : %d\n",n,fact(n));
     return 0;
 }
